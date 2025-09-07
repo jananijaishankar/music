@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, SkipBack, SkipForward, Volume2, Heart, Shuffle, Repeat, MoreHorizontal } from 'lucide-react';
 import musicData from '../db/db.json'; // Your actual import
-
+import musiclogo from "../assets/music.jpg"
 const Home = () => {
   const [songs, setSongs] = useState(musicData.items);
   const [currentSong, setCurrentSong] = useState(0);
@@ -199,8 +199,9 @@ const Home = () => {
                   onClick={() => selectSong(originalIndex)}
                 >
                   <div className="relative mb-4">
+                    
                     <img
-                      src={song.imgUrl}
+                      src={musiclogo}
                       alt={song.title}
                       className="w-full aspect-square rounded-lg object-cover shadow-lg"
                      

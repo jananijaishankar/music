@@ -2,98 +2,98 @@
   "items": [
     {
       "id": 1,
-      "title": "Bol Do Na Zara",
-      "singer": "Armaan Malik",
-      "genre": "Romantic",
-      "imgUrl": "https://c.saavncdn.com/709/Bol-Do-Na-Zara-Instrumental-Hindi-2018-20181221231527-500x500.jpg",
-      "songUrl": "Songs/Bol Do Na Zara.mp3"
+      "title": "Kanave Kanave",
+      "singer": "Anirudh Ravichander",
+      "genre": "Emotional",
+      "imgUrl": "https://i.ytimg.com/vi/FHBoZgRwvSQ/maxresdefault.jpg",
+      "songUrl": "Songs/Kanave Kanave.mp3"
     },
     {
       "id": 2,
-      "title": "Chaleya",
-      "singer": "Arijit Singh",
+      "title": "Enna Solla",
+      "singer": "Shweta Mohan",
       "genre": "Romantic",
-      "imgUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/chaleya-song-141618193-1x1.jpg?VersionId=4H9DEXybp0zu2rGuku7n_C2z8stxuBJZ",
-      "songUrl": "Songs/chaleya.mp3"
+      "imgUrl": "https://tse2.mm.bing.net/th/id/OIP.UyRA7hr0J_xOgA0Dc22v2wHaEK?pid=Api&P=0&h=180",
+      "songUrl": "Songs/Enna Solla.mp3"
     },
     {
       "id": 3,
-      "title": "Humnava Mere",
-      "singer": "Jubin Nautiyal",
+      "title": "Munbe Vaa",
+      "singer": "Shreya Ghoshal",
       "genre": "Romantic",
-      "imgUrl": "https://c.saavncdn.com/259/Humnava-Mere-Hindi-2018-20180522-500x500.jpg",
-      "songUrl": "Songs/Humnava Mere.mp3"
+      "imgUrl": "https://i.ytimg.com/vi/gTIgVLrVqkg/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGD0gZSgPMA8=&rs=AOn4CLBksbaYHlX0lV_iiBm8WNlebdp66Q",
+      "songUrl": "Songs/Munbe Vaa.mp3"
     },
     {
       "id": 4,
-      "title": "Saari Duniya Jalaa Denge",
-      "singer": "B Praak",
-      "genre": "Emotional",
-      "imgUrl": "https://c.saavncdn.com/623/Saari-Duniya-Jalaa-Denge-From-ANIMAL-Hindi-2023-20231124191004-500x500.jpg",
-      "songUrl": "Songs/Saari Duniya Jalaa Denge.mp3"
+      "title": "Soniya Soniya",
+      "singer": "AR Rahman",
+      "genre": "Romantic",
+      "imgUrl": "https://tse1.mm.bing.net/th/id/OIP.djedHoAWKSusx48Sv0ykMgHaEK?pid=Api&P=0&h=180",
+      "songUrl": "Songs/Vinnaithaandi Varuvaayaa.mp3"
     },
     {
       "id": 5,
-      "title": "Sanam Teri Kasam",
-      "singer": "Ankit Tiwari",
-      "genre": "Emotional",
-      "imgUrl": "https://i.scdn.co/image/ab67616d0000b2731c79ed9daa0ef22e185c71cd",
-      "songUrl": "Songs/Sanam Teri Kasam.mp3"
+      "title": "Thuli Thuli",
+      "singer": "Haricharan",
+      "genre": "Melody",
+      "imgUrl": "https://i.ytimg.com/vi/nOB4yGHDQB8/maxresdefault.jpg",
+      "songUrl": "Songs/Thuli Thuli.mp3"
     },
     {
       "id": 6,
-      "title": "Tum Hi Ho",
-      "singer": "Arijit Singh",
+      "title": "Uyire Uyire",
+      "singer": "Hariharan",
       "genre": "Emotional",
-      "imgUrl": "https://lyrichindi.com/wp-content/uploads/2023/09/desktop-wallpaper-meri-aashiqui-tum-hi-ho-tum-hi-ho.jpg",
-      "songUrl": "Songs/Tum Hi Ho.mp3"
+      "imgUrl": "https://i.ytimg.com/vi/ej5ihp0op3U/maxresdefault.jpg",
+      "songUrl": "Songs/Uyire Uyire.mp3"
     },
     {
       "id": 7,
-      "title": "zihal-e-misk",
-      "singer": "Shreya Ghoshal",
+      "title": "Naan Pizhaippeno",
+      "singer": "Sid Sriram",
       "genre": "Emotional",
-      "imgUrl": "https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1685023719.jpg",
-      "songUrl": "Songs/Zihaal e Miskin.mp3"
+      "imgUrl": "https://i.ytimg.com/vi/LhObvyDjR4E/maxresdefault.jpg",
+      "songUrl": "Songs/Naan Pizhaippeno.mp3"
     }
   ],
   "favorities": [
     {
       "itemId": 4,
-      "title": "Saari Duniya Jalaa Denge",
-      "imgUrl": "https://c.saavncdn.com/623/Saari-Duniya-Jalaa-Denge-From-ANIMAL-Hindi-2023-20231124191004-500x500.jpg",
-      "genre": "Emotional",
-      "songUrl": "Songs/Saari Duniya Jalaa Denge.mp3",
-      "singer": "B Praak",
+      "title": "Vinnaithaandi Varuvaayaa",
+      "imgUrl": "https://m.media-amazon.com/images/I/81bncU60xaL._UF1000,1000_QL80_.jpg",
+      "genre": "Romantic",
+      "songUrl": "Songs/Vinnaithaandi Varuvaayaa.mp3",
+      "singer": "Karthik",
       "id": 6
     }
   ],
   "playlist": [
     {
       "itemId": 6,
-      "title": "Tum Hi Ho",
-      "imgUrl": "https://lyrichindi.com/wp-content/uploads/2023/09/desktop-wallpaper-meri-aashiqui-tum-hi-ho-tum-hi-ho.jpg",
+      "title": "Uyire Uyire",
+      "imgUrl": "https://www.tamil2lyrics.com/wp-content/uploads/2015/05/Uyire-Uyire.jpg",
       "genre": "Emotional",
-      "songUrl": "Songs/Tum Hi Ho.mp3",
-      "singer": "Arijit Singh",
+      "songUrl": "Songs/Uyire Uyire.mp3",
+      "singer": "Hariharan",
       "id": 4
     },
     {
       "itemId": 4,
-      "title": "Saari Duniya Jalaa Denge",
-      "imgUrl": "https://c.saavncdn.com/623/Saari-Duniya-Jalaa-Denge-From-ANIMAL-Hindi-2023-20231124191004-500x500.jpg",
-      "genre": "Emotional",
-      "songUrl": "Songs/Saari Duniya Jalaa Denge.mp3",
-      "singer": "B Praak",
+      "title": "Vinnaithaandi Varuvaayaa",
+      "imgUrl": "https://m.media-amazon.com/images/I/81bncU60xaL._UF1000,1000_QL80_.jpg",
+      "genre": "Romantic",
+      "songUrl": "Songs/Vinnaithaandi Varuvaayaa.mp3",
+      "singer": "Karthik",
       "id": 6
     },
     {
       "itemId": 2,
-      "title": "Chaleya",
-      "imgUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202309/chaleya-song-141618193-1x1.jpg?VersionId=4H9DEXybp0zu2rGuku7n_C2z8stxuBJZ",
+      "title": "Enna Solla",
+      "imgUrl": "https://m.media-amazon.com/images/I/71sd+OlMHsL._UF1000,1000_QL80_.jpg",
       "genre": "Romantic",
-      "songUrl": "Songs/chaleya.mp3",
-      "singer": "Arijit Singh",
+      "songUrl": "Songs/Enna Solla.mp3",
+      "singer": "Shweta Mohan",
       "id": 7
     }
   ]
