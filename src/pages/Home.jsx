@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Play, Pause, SkipBack, SkipForward, Volume2, Heart, Shuffle, Repeat, MoreHorizontal } from 'lucide-react';
+import { Play, Pause, SkipBack, SkipForward, Volume2, Heart, Shuffle, Repeat, MoreHorizontal, X } from 'lucide-react';
 import musicData from '../db/db.json'; // Your actual import
 import musiclogo from "../assets/music.jpg"
+
 const Home = () => {
   const [songs, setSongs] = useState(musicData.items);
   const [currentSong, setCurrentSong] = useState(0);
@@ -114,6 +115,11 @@ const Home = () => {
     );
   };
 
+  const removeFromFavorites = (songId, e) => {
+    e.stopPropagation(); // Prevent triggering song selection
+    setFavorites((prev) => prev.filter((id) => id !== songId));
+  };
+
   // Filtering songs based on activeTab and searchTerm
   const filteredSongs = songs.filter((song) => {
     // Tab filtering
@@ -201,14 +207,14 @@ const Home = () => {
                   <div className="relative mb-4">
                     
                     <img
-                      src={musiclogo}
+                      src={song.imgUrl}
                       alt={song.title}
-                      className="w-full aspect-square rounded-lg object-cover shadow-lg"
+                      className="w-full aspect-square  object-cover shadow-lg"
                      
                     />
                     
                     {/* Play Button Overlay */}
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 rounded-lg transition-all duration-200 flex items-center justify-center">
+                    <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 rounded-lg transition-all duration-200 flex items-center justify-center">
                       <button
                         className={`w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center transform scale-0 group-hover:scale-100 transition-transform duration-200 hover:bg-blue-400 shadow-lg ${
                           isCurrent && isPlaying ? 'scale-100 bg-blue-400' : ''
@@ -248,6 +254,20 @@ const Home = () => {
                         className="transition-colors duration-200"
                       />
                     </button>
+
+                    {/* Delete Button for Favorites Tab */}
+                    {activeTab === 'favorites' && (
+                      <button
+                        onClick={(e) => removeFromFavorites(song.id, e)}
+                        className="absolute top-2 left-2 p-2 rounded-full bg-red-600 bg-opacity-80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-500 hover:bg-opacity-90"
+                        aria-label="Remove from favorites"
+                      >
+                        <X
+                          size={16}
+                          className="text-white"
+                        />
+                      </button>
+                    )}
 
                     {/* Current Playing Indicator */}
                     {isCurrent && isPlaying && (
